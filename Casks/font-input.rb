@@ -177,7 +177,7 @@ cask 'font-input' do
   font 'Input_Fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ThinItalic.ttf'
 
   caveats do
-    <<-EOS.undent
+    <<~EOS
     To use the Input fonts, you must agree to the terms of the license.
 
     #{caskroom_path}/#{version}/LICENSE.txt
